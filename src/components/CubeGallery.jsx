@@ -16,7 +16,7 @@ export const CubeGallery = () => {
   const [difficultyFilter, setDifficultyFilter] = useState('all');
   const [selectedCubes, setSelectedCubes] = useState([]);
   const [showComparison, setShowComparison] = useState(false);
-
+if (!filteredCubes || !Array.isArray(filteredCubes)) { return <div className="text-center py-20">Initializing Cubeverse Database...</div>; }
   useEffect(() => {
     loadCubes();
     // eslint-disable-next-line react-hooks/exhaustive-deps
