@@ -106,7 +106,7 @@ export const FlagsSection = () => {
         {/* Flags Grid */}
         {!loading && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {flags.map(flag => (
+            {flags && flags.map((flag) => (
               <Card key={flag.id} className="overflow-hidden hover:shadow-xl transition-all duration-300 border-2 hover:border-indigo-300">
                 {/* Visual Flag on Cube */}
                 <div className="relative h-56 overflow-hidden bg-gradient-to-br from-indigo-100 to-purple-100 flex items-center justify-center">
