@@ -16,7 +16,7 @@ export const CubeGallery = () => {
   const [difficultyFilter, setDifficultyFilter] = useState('all');
   const [selectedCubes, setSelectedCubes] = useState([]);
   const [showComparison, setShowComparison] = useState(false);
-if (!cubes || !Array.isArray(cubes)) { return <div className="text-center py-20">Initializing Cubeverse Database...</div>; }
+
   useEffect(() => {
     loadCubes();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -69,7 +69,7 @@ if (!cubes || !Array.isArray(cubes)) { return <div className="text-center py-20"
   const clearSelection = () => {
     setSelectedCubes([]);
   };
-
+if (!filteredCubes || !Array.isArray(filteredCubes)) { return <div className="text-center py-20">Initializing Cubeverse Database...</div>; }
   return (
     <section id="cubes" className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="container mx-auto px-4">
