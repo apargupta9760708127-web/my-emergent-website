@@ -165,7 +165,7 @@ export const CubeGallery = () => {
         {/* Results Count */}
         {!loading && (
           <div className="mb-6 text-gray-600">
-            Showing {filteredCubes.length} cube{filteredCubes.length !== 1 ? 's' : ''}
+            Showing {filteredCubes ? filteredCubes.length : 0} cube{filteredCubes && filteredCubes.length !== 1 ? 's' : ''}
           </div>
         )}
 
