@@ -59,7 +59,7 @@ export const PatternsSection = () => {
         {/* Patterns Grid */}
         {!loading && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {patterns.map(pattern => (
+            {patterns && patterns.map((pattern) => (
               <Card key={pattern.id} className="overflow-hidden hover:shadow-xl transition-all duration-300 border-2 hover:border-purple-300">
                 {/* Visual Pattern */}
                 <div className="relative h-48 overflow-hidden bg-gradient-to-br from-purple-100 to-pink-100 flex items-center justify-center">
