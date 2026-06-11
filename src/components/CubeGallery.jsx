@@ -172,7 +172,7 @@ export const CubeGallery = () => {
         {/* Cube Grid */}
         {!loading && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredCubes.map(cube => (
+            {filteredCubes && filteredCubes.map((cube) => (
               <CubeCard
                 key={cube.id}
                 cube={cube}
