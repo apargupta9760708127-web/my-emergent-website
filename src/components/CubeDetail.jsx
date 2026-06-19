@@ -14,7 +14,7 @@ import {
 import { toast } from 'sonner';
 import { Puzzle3D } from './Puzzle3D';
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+const BACKEND_URL = "https://onrender.com";
 const API = `${BACKEND_URL}/api`;
 
 const difficultyColors = {
