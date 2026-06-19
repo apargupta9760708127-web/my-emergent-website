@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BACKEND_URL = "https://cubeverse-backend.onrender.com";
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "https://cubeverse-backend.onrender.com";
 const API = `${BACKEND_URL}/api`;
 
 export const getCubes = async (filters = {}) => {
