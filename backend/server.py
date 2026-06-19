@@ -23,6 +23,17 @@ db = client[os.environ['DB_NAME']]
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
+    allow_origins=[
+        "https://my-emergent-website-ev8ueiehz.vercel.app",
+        "https://my-emergent-website.vercel.app",
+        "http://localhost:3000",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+app.add_middleware(
+    CORSMiddleware,
     allow_origin_regex=r"https://.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
