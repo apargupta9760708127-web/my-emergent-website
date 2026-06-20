@@ -57,7 +57,7 @@ export const Hero = () => {
                 Explore Cubes
               </Button>
               <Button
-                onClick={() => window.open('https://www.youtube.com/@cubemaster', '_blank')}
+                onClick={() => window.open('https://www.youtube.com/@cubegod7233', '_blank')}
                 size="lg"
                 variant="outline"
                 className="border-2 border-red-600 text-red-600 hover:bg-red-50 px-8 py-6 text-lg transition-all"
