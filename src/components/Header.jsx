@@ -59,7 +59,7 @@ export const Header = () => {
               Tutorials
             </button>
             <Button
-              onClick={() => window.open('https://www.youtube.com/@cubemaster', '_blank')}
+            onClick={() => window.open('https://www.youtube.com/@cubegod7233', '_blank')}
               className="bg-red-600 hover:bg-red-700 text-white"
             >
               <Youtube className="w-4 h-4 mr-2" />
