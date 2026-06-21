@@ -69,7 +69,7 @@ export const CubeGallery = () => {
   const clearSelection = () => {
     setSelectedCubes([]);
   };
-if (!filteredCubes || !Array.isArray(filteredCubes)) { return <div className="text-center py-20">Initializing Cubeverse Database...</div>; }
+if (!filteredCubes || !Array.isArray(filteredCubes)) { return <div className="text-center py-20">Initializing CubeGod Database...</div>; }
   return (
     <section id="cubes" className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="container mx-auto px-4">
