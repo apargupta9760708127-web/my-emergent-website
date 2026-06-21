@@ -37,7 +37,7 @@ export const Header = () => {
               <div className="transform -rotate-45 text-white font-bold text-lg">RC</div>
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-red-600 via-blue-600 to-green-600 bg-clip-text text-transparent">
-              CubeVerse
+              CubeGod
             </span>
           </div>
 
