@@ -283,7 +283,7 @@ flags_data = [
 youtube_data = {
     "id": "yt1",
     "channelName": "CubeGod",
-    "channelUrl": "https://www.youtube.com/@cubegod",
+    "channelUrl": "https://www.youtube.com/@cubegod7233",
     "subscribers": "1.63K",
     "description": "Indian Rubik's Cube Channel - Learn everything about Rubik's Cube in Hindi!",
     "featuredVideos": [
