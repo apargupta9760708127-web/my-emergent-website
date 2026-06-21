@@ -244,10 +244,10 @@ export const flags = [
 ];
 
 export const youtubeChannel = {
-  channelName: 'CubeMaster Pro',
-  channelUrl: 'https://www.youtube.com/@cubemaster',
-  subscribers: '250K',
-  description: 'Learn advanced solving techniques, patterns, and tricks!',
+  channelName: 'CubeGod',
+  channelUrl: 'https://www.youtube.com/@CubeGod',
+  subscribers: '1.63K',
+  description: 'Indian Rubik's Cube Channel - Learn everything about Rubik's Cube in Hindi!',
   featuredVideos: [
     {
       id: 'v1',
