@@ -14,7 +14,7 @@ import {
 import { toast } from 'sonner';
 import { Puzzle3D } from './Puzzle3D';
 
-const BACKEND_URL = "https://cubeverse-backend.onrender.com";
+const BACKEND_URL = "https://CubeGod-backend.onrender.com";
 const API = `${BACKEND_URL}/api`;
 
 const difficultyColors = {
