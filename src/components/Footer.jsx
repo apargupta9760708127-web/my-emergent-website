@@ -12,7 +12,7 @@ export const Footer = () => {
               <div className="w-10 h-10 bg-gradient-to-br from-red-500 via-blue-500 to-green-500 rounded-lg flex items-center justify-center transform rotate-45">
                 <div className="transform -rotate-45 text-white font-bold text-lg">RC</div>
               </div>
-              <span className="text-2xl font-bold">CubeVerse</span>
+              <span className="text-2xl font-bold">CubeGod</span>
             </div>
             <p className="text-gray-400 text-sm">
               Your ultimate resource for everything Rubik's Cube. Learn, explore, and master!
@@ -87,7 +87,7 @@ export const Footer = () => {
                 <span>YouTube</span>
               </a>
               <a
-                href="mailto:info@cubeverse.com"
+                href="mailto:info@CubeGod.com"
                 className="flex items-center gap-2 text-gray-400 hover:text-blue-500 transition-colors"
               >
                 <Mail className="w-5 h-5" />
