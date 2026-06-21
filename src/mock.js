@@ -245,7 +245,7 @@ export const flags = [
 
 export const youtubeChannel = {
   channelName: 'CubeGod',
-  channelUrl: 'https://www.youtube.com/@CubeGod',
+  channelUrl: 'https://www.youtube.com/@cubegod7233',
   subscribers: '1.63K',
   description: 'Indian Rubik's Cube Channel - Learn everything about Rubik's Cube in Hindi!',
   featuredVideos: [
