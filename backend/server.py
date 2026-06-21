@@ -28,7 +28,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 # Create a router with the /api prefix
 api_router = APIRouter(prefix="/api")
 
