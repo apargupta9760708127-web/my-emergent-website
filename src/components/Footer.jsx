@@ -56,7 +56,7 @@ export const Footer = () => {
                 </button>
               </li>
               <li>
-                <a href="https://www.youtube.com/@CubeGod" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                <a href="https://www.youtube.com/@cubegod7233" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                   YouTube Channel
                 </a>
               </li>
@@ -78,7 +78,7 @@ export const Footer = () => {
             <h3 className="font-bold text-lg mb-4">Connect</h3>
             <div className="space-y-3">
               <a
-                href="https://www.youtube.com/@CubeGod"
+                href="https://www.youtube.com/@cubegod7233"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-gray-400 hover:text-red-500 transition-colors"
