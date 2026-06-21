@@ -140,7 +140,7 @@ export const PatternsSection = () => {
             <h3 className="text-2xl font-bold text-gray-800 mb-3">Want to Learn More Patterns?</h3>
             <p className="text-gray-600 mb-6 max-w-xl">Check out our YouTube channel for detailed video tutorials on creating amazing cube patterns!</p>
             <button
-              onClick={() => window.open('https://www.youtube.com/@CubeGod', '_blank')}
+              onClick={() => window.open('https://www.youtube.com/@cubegod7233', '_blank')}
               className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-3 rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all"
             >
               Watch Pattern Tutorials
