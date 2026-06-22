@@ -230,7 +230,7 @@ flags_data = [
         "name": "United States",
         "colors": ["Red", "White", "Blue"],
         "difficulty": "Medium",
-        "videoUrl": "https://www.youtube.com/watch?v=example",
+        "videoUrl": "https://www.youtube.com/watch?v=8UZOCSJoGmQ",
         "image": FLAG_USA
     },
     {
@@ -239,7 +239,7 @@ flags_data = [
         "name": "India",
         "colors": ["Saffron", "White", "Green", "Blue"],
         "difficulty": "Hard",
-        "videoUrl": "https://www.youtube.com/watch?v=example",
+        "videoUrl": "https://www.youtube.com/watch?v=7YwmsM3m3n8",
         "image": FLAG_INDIA
     },
     {
@@ -248,7 +248,7 @@ flags_data = [
         "name": "Japan",
         "colors": ["Red", "White"],
         "difficulty": "Easy",
-        "videoUrl": "https://www.youtube.com/watch?v=example",
+        "videoUrl": "https://www.youtube.com/watch?v=cUZ_WylSnAA",
         "image": FLAG_JAPAN
     },
     {
@@ -257,7 +257,7 @@ flags_data = [
         "name": "Brazil",
         "colors": ["Green", "Yellow", "Blue", "White"],
         "difficulty": "Hard",
-        "videoUrl": "https://www.youtube.com/watch?v=example",
+        "videoUrl": "https://www.youtube.com/watch?v=CJHgMwwvMPQ",
         "image": FLAG_BRAZIL
     },
     {
@@ -266,7 +266,7 @@ flags_data = [
         "name": "France",
         "colors": ["Blue", "White", "Red"],
         "difficulty": "Easy",
-        "videoUrl": "https://www.youtube.com/watch?v=example",
+        "videoUrl": "https://www.youtube.com/watch?v=A1w6t5ijrpo",
         "image": FLAG_FRANCE
     },
     {
@@ -275,7 +275,7 @@ flags_data = [
         "name": "Germany",
         "colors": ["Black", "Red", "Yellow"],
         "difficulty": "Easy",
-        "videoUrl": "https://www.youtube.com/watch?v=example",
+        "videoUrl": "https://www.youtube.com/watch?v=A1w6t5ijrpo",
         "image": FLAG_GERMANY
     }
 ]
