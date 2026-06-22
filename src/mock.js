@@ -253,21 +253,21 @@ export const youtubeChannel = {
       id: 'v1',
       title: 'Master the 3x3 Cube in 10 Minutes',
       thumbnail: 'https://images.unsplash.com/photo-1611329532992-4e4b7879d3b9?w=400&h=225&fit=crop',
-      url: 'https://www.youtube.com/watch?v=example1',
+      url: 'https://www.youtube.com/watch?v=7Ron6MN45LY',
       views: '1.2M'
     },
     {
       id: 'v2',
       title: 'Advanced F2L Techniques',
       thumbnail: 'https://images.unsplash.com/photo-1591991731833-b4c5a8fc6de0?w=400&h=225&fit=crop',
-      url: 'https://www.youtube.com/watch?v=example2',
+      url: 'https://www.youtube.com/watch?v=3B_oB2YrLvk',
       views: '850K'
     },
     {
       id: 'v3',
       title: 'Cool Cube Patterns Tutorial',
       thumbnail: 'https://images.unsplash.com/photo-1611329532992-4e4b7879d3b9?w=400&h=225&fit=crop',
-      url: 'https://www.youtube.com/watch?v=example3',
+      url: 'https://www.youtube.com/watch?v=vtY7hOIAj6E',
       views: '620K'
     }
   ]
